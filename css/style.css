@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(249, 250, 184);
+    background-color: rgb(124, 246, 120);
 }
 
 h1 {
@@ -25,3 +25,8 @@ img {
 .color-text {
     color: cadetblue;
 }
+
+.background-color-special {
+    background-color: burlywood;
+}
+
