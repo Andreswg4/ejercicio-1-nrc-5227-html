@@ -14,12 +14,48 @@
         <h1 id="txtTitulo">Contenido JS</h1>
         <p> JavaScript es el lenguaje de programación más popular del mundo. JavaScript es el lenguaje de programación de la Web.</p>
         <p>JavaScript es interpretado en el navegador. No compila.</p>
-        <img src="../images/htmlcssjs.jpg" alt="HTML-CSS-JS">
+        <img src="../images/htmlcssjs.jpg" height="60" width="80" alt="HTML-CSS-JS">
         <hr>
         <h4 id="txtEjemplo">Ejemplo de JavaScript</h4>        
         <p>Al dar click en el siguiente bot&oacute;n el t&iacute;tulo del contenido va a cambiar.</p>
         <!--El atributo tipo evento onclick tiene vinculado una función de JavaScript -->
         <button id="btnClick" onclick="changeTitle()">¡Click!</button>
+        <br>
+        <hr>
+        <h2>Ejercicios con operadores de Javascript</h2>
+        <div>
+            <label for="txtNumero1">N°1</label>
+            <!-- Input es un elemento que permite el ingreso de valores al documento HTML -->            
+            <input type="number" min="0" max="127" value="1" name="txtNumero1" id="txtNumero1">
+        </div>
+        <div>
+            <label for="txtNumero2">N°2</label>
+            <input type="number" min="1" max="127" value="1" name="txtNumero2" id="txtNumero2">
+        </div>        
+        <br>
+        <div>
+            <button class="btn" id="btnSumaHTML" onclick="operar('Ha pulsado el <b>button</b> de HTML')" >Operar con HTML</button>            
+        </div>
+        <div>
+            <input class="btn"  id="btnSumaInput" onclick="operar('Ha pulsado el <b>input</b> tipo botón')" type="button" value="Operar con INPUT">
+        </div>
+        <br>
+        <div>
+            <label for="txtResultadoSuma">Suma: </label>
+            <input type="text" name="txtResultadoSuma" id="txtResultadoSuma" readonly>
+            <label for="txtResultadoResta">Resta: </label>
+            <input type="text" name="txtResultadoResta" id="txtResultadoResta" readonly>            
+        </div>
+        <div>
+            <label for="txtResultadoMulti">Multiplicaci&oacute;n: </label>
+            <input type="text" name="txtResultadoMulti" id="txtResultadoMulti" readonly>
+            <label for="txtResultadoDivi">Divisi&oacute;n: </label>
+            <input type="text" name="txtResultadoDivi" id="txtResultadoDivi" readonly>
+        </div>
+        <p id="txtDescripcion"></p>
+        <br>
+        <br>
+        <br>
         <br>
         <footer>
             <!-- Vinculación del archivo de JavaScript [Programación] -->
