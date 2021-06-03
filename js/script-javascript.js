@@ -1,6 +1,6 @@
-/* Función que cambia el titulo de txtEjemplo y desaparece el botón  */
+/* Funci&oacute;n que cambia el titulo de txtEjemplo y desaparece el bot&oacute;n  */
 function changeTitle(){    
-    document.getElementById('txtEjemplo').innerText = 'Nuevo título';
+    document.getElementById('txtEjemplo').innerText = 'Nuevo t&iacute;tulo';
     document.getElementById('btnClick').remove();
     document.getElementById('txtTitulo').innerText = 'JavaScript';
 }

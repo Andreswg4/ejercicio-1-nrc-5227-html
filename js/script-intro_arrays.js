@@ -9,10 +9,10 @@ var varios_tipos = [3, 'Juan', true, '2021-05-31'];
 var numeros_primos = new Array(10);
 //Definir un arreglo por el contructor con sus elementos
 var serie_fibonacci = new Array(1,1,2,3,5,8,13,21);
-//Definir un arreglo vacío
+//Definir un arreglo vac&iacute;o
 var figuras_geometricas = new Array();
 
-//Función que imprime los arreglos
+//Funci&oacute;n que imprime los arreglos
 function imprimirArreglos(){
     setTimeout(function(){
         document.getElementById('arrProvincias').innerText = provincias;    
@@ -29,7 +29,7 @@ function imprimirCadaProvincia(){
         var li = document.createElement('li'); //Crea un nuevo elemento en el DOM por su etiqueta de HTML //<li></li>        
         li.innerText = x;
         document.getElementById('ulProvincias').append(li); //Agrega contenido al elemento
-    }); //El método forEach es un callback, lo que quiere decir que implementa su funcionalidad dentro del mismo método
+    }); //El m&eacute;todo forEach es un callback, lo que quiere decir que implementa su funcionalidad dentro del mismo m&eacute;todo
 }
 
 function agregarFigura(){
